@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0,0,0,0,2);
+    border-radius: 20px;
+    width: 640px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h1{
+    color: rgb(24, 24, 59);
+    font-size: 30;
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: 20;
+}
+.label{
+    color:rgb(138, 138, 240);
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+
+}
+.form-txt{
+    margin-bottom: 30px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.btn{
+    font-size: 16px;
+    color: rgb(238, 237, 237);
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(96, 185, 185);
+    box-shadow: 0 0 20px rgba(25,254,0,0,4);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(13, 68, 50);
+}
+input{
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color:rgb(178, 199, 196);
+    border: 2px solid rgb(32, 33, 99) ;
+    color:black;
+    outline: none;
+}
+textarea {
+    width: 90%;
+    height: 90px;
+    padding: 10px 10px;
+    border-radius: 15px; 
+    margin-bottom: 20px;
+    background-color:rgb(178, 199, 196);
+    border: 2px solid rgb(32, 33, 99) ;
+    color:black;
+    outline: none;
+}
+input::placeholder,textarea::placeholder{
+    color:rgb(24, 23, 23);
+
+}
+@media(max-width:600px)
+{
+    body{
+        padding: 30px;
+
+    }
+    form{
+        padding: 30px;
+    }
+    input{
+        padding: 15px;
+    }
+}
